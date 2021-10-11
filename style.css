@@ -1,0 +1,8 @@
+.warning {
+  display: none;
+}
+
+#clear-btn:hover + .warning {
+  display: block;
+  color: red;
+}
